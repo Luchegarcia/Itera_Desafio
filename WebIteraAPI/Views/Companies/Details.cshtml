@@ -1,0 +1,66 @@
+﻿@model WebIteraAPI.Models.Company
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Company</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id_PK)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id_PK)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.status)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.date_ingestion)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.date_ingestion)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.last_update)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.last_update)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.custos_ano)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.custos_ano)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.custos_id_type)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.custos_id_type)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.custos_last_update)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.custos_last_update)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.custos_valor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.custos_valor)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
