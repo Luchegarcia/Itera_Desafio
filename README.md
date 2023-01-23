@@ -41,7 +41,3 @@ Projetamos ordenamente:
 Dentro do Framewrok MVC , a sessão Model foi responsável pela modelagem dos dados a serem construidos. Segregamos pelos elementos que compoe as duas classes / tabelas principais da aplicação Empresa e Grupo.Para realização da model , também realizamos a construção do Database Itera (SQL Server Express) que contém os dados e a diagramação de classes do banco.
 A View foi desenvolvida pelo recurso Scaffolder que realiza a construção do Layout e Interface da Aplicação tendo em vista o que está parametrizado via a Sessão Model.
 A partir da sessão Controller podemos definir a camada de backend da aplicação que processará as informações requisitadas pelos Usuários e API's , atrvés daqui desenvolvemos os nossos endpoints.
-
-
-
-
